@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">E-contact</string>
+
+    <string name="button_inProgress">В роботi</string>
+    <string name="button_done">Виконано</string>
+    <string name="button_waiting">Очикує</string>
+    <string name="button_allAppeals">Вci звернення</string>
+    <string name="button_appealsOnMap">Звернення на мапi</string>
+    <string name="button_logIn">Увiйти в аккаунт</string>
+
+    <string name="chb_hideMenu">Menu</string>
+
+    <string name="utilities_header">CE-1257218</string>
+    <string name="utilities">Комунальне господарство</string>
+    <string name="allAppeals">All Appeals</string>
+    <string name="appealsOnMap">Appeals on map</string>
+    <string name="logIn">Log in</string>
+    <string name="loggingIn">Logging in</string>
+    <string name="mainRegards">Зроблено з любовю</string>
+    <string name="test">test</string>
+    <string name="it_ruh_dnipro">IT Ruh Dnipro</string>
+    <string name="and">та</string>
+    <string name="yalantis">Yalantis</string>
+    <string name="created">Створено</string>
+    <string name="registered">Зареэстровано</string>
+    <string name="resolveTill">Вирішити до</string>
+    <string name="responsible">Відповідальний</string>
+    <string name="created_Answer">25 Лютого 2016</string>
+    <string name="registered_Answer">26 Лютого 2016</string>
+    <string name="resolveTill_Answer">29 Лютого 2016</string>
+    <string name="responsible_Answer">Дніпропетровський МВК ()</string>
+    <string name="issue">Открытый люк (возле рекламного щита), район поворота 18 и 19 трамваев на  проспект мира с Донецкого шоссе</string>
+    <string name="button_toMain">toMain</string>
+    <string name="button_toAppeals">toAppeals</string>
+    <string name="e_contact">e-contact</string>
+    <string name="title_activity_main22">Main2Activity2</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="plus">+</string>
+    <string name="header">Header</string>
+    <string name="contentDescription">contentDescription</string>
+
+</resources>

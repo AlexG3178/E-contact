@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/item">
+
+
+        <ImageView
+            android:id="@+id/iv_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="110dp"
+            android:contentDescription="@string/and"
+            app:srcCompat="@mipmap/all_appeals_icon_likes" />
+
+        <ImageView
+            android:id="@+id/iv_icons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/and"
+            app:srcCompat="@mipmap/appeals_on_map" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_header"
+            android:layout_alignStart="@+id/tv_header"
+            android:layout_alignBaseline="@+id/tv_likesCounter"
+            android:layout_alignBottom="@+id/tv_likesCounter"
+            android:layout_toEndOf="@+id/tv_likesCounter"
+            android:layout_toRightOf="@+id/tv_likesCounter"
+            android:gravity="center_horizontal"
+            android:text="date"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_icons"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:gravity="center_horizontal"
+            android:text="header"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_likesCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="likesCounter"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/iv_icons"
+            android:layout_toEndOf="@+id/iv_icons"
+            android:layout_marginBottom="11dp" />
+
+        <TextView
+            android:id="@+id/tv_daysInProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:gravity="center_horizontal"
+            android:text="daysProgress"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_alignBaseline="@+id/tv_date"
+            android:layout_alignBottom="@+id/tv_date"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_above="@+id/tv_date"
+            android:layout_alignLeft="@+id/tv_date"
+            android:layout_alignStart="@+id/tv_date"
+            android:layout_marginBottom="18dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

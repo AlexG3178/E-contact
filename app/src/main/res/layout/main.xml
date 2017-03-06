@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/appealsOnMap"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/allAppeals"
+        android:layout_alignStart="@+id/allAppeals"
+        android:layout_below="@+id/allAppeals"
+        android:drawableLeft="@mipmap/appeals_on_map"
+        android:drawableStart="@mipmap/appeals_on_map"
+        android:text="@string/button_appealsOnMap"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/appealsOnMap"
+        android:layout_alignStart="@+id/appealsOnMap"
+        android:layout_below="@+id/appealsOnMap"
+        android:clickable="true"
+        android:text="@string/button_logIn"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/allAppeals"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:drawableLeft="@mipmap/all_appeals"
+        android:drawableStart="@mipmap/all_appeals"
+        android:text="@string/button_allAppeals"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue">
+
+        <TextView
+            android:id="@+id/header_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingBottom="20dp"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:text="@string/e_contact"
+            android:textColor="@color/blue_header"
+            android:textSize="20sp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/test"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/made_with_love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="10dp"
+        android:text="@string/mainRegards"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/itRuhDnipro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:text="@string/it_ruh_dnipro"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/and"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/and"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/yalantis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="5dp"
+            android:text="@string/yalantis"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
